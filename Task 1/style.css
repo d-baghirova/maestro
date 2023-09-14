@@ -1,0 +1,156 @@
+
+body {
+  height: 100vh;
+  background-image: url(./Picture1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+hr {
+    width: 20vw;
+    color: rgb(127, 126, 126);
+    border: 1px solid rgb(132, 131, 131);
+}
+
+label {
+    width: 20vw;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: left;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 22px;
+    margin: 0;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.hex, .hexx {
+    width: 30vw;
+    height: 70vh;
+    background-color: white;
+    border-color: white;
+    position: relative;
+    display: inline-block;
+}
+
+.hexx {
+    height: 50vh;
+}
+.hex:before, .hexx:before {
+    content: "";
+    width: 0; height: 0;
+    border-bottom: 50px solid;
+    border-color: inherit;
+    border-left: 15vw solid transparent;
+    border-right: 15vw solid transparent;
+    position: absolute;
+    top: -50px;
+}
+.hex:after, .hexx::after {
+    content: "";
+    width: 0;
+    position: absolute;
+    bottom: -50px;
+    border-top: 50px solid;
+    border-color: white;
+    border-left: 15vw solid transparent;
+    border-right: 15vw solid transparent;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+label, input, button, a, p {
+    margin: 3px;
+    border-radius: 3px;
+    width: 20vw;
+}
+
+.submit {
+    width: 8rem;
+    padding: 5px;
+    background-color: #2871aa;
+    border: 1px solid transparent;
+    color:  white;
+}
+
+.btns button {
+    margin: 5px;
+}
+
+.btns button:hover {
+    border: 1px solid rgb(173, 172, 172);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+.socialMedia {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
+
+.socialMedia, input {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.socialMedia img {
+    width: 20px;
+    height: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #2871aa;
+}
+
+input {
+    height: 1.5rem;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
+    border: 1px solid #2871aa;
+}
+
+p, a {
+    text-align: center;
+    font-size: 11px;
+}
+
+a {
+    font-weight: bold;
+}
