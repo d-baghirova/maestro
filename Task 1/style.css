@@ -48,19 +48,15 @@ form {
     text-align: left;
 }
 
-.hex, .hexx {
+.hex {
     width: 30vw;
-    height: 70vh;
     background-color: white;
     border-color: white;
     position: relative;
     display: inline-block;
 }
 
-.hexx {
-    height: 50vh;
-}
-.hex:before, .hexx:before {
+.hex:before {
     content: "";
     width: 0; height: 0;
     border-bottom: 50px solid;
@@ -70,7 +66,7 @@ form {
     position: absolute;
     top: -50px;
 }
-.hex:after, .hexx::after {
+.hex:after {
     content: "";
     width: 0;
     position: absolute;
