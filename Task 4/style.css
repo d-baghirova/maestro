@@ -1,0 +1,134 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 5px;
+    padding: 0;
+    background-color: #e0e0f3;
+}
+
+footer {
+    background-color: white;
+    border: 2px solid #e0e0f3;
+    width: 98%;
+}
+
+p {
+    color: #a5a5b3;
+    font-size: 13px;
+}
+
+h3, a {
+    color: #1e0e62;
+}
+
+a {
+    text-decoration: none;
+    line-height: 2rem;
+}
+
+.third {
+    margin-top: 1rem;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+hr {
+    margin-top: 1rem;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.start {
+    align-items: start;
+}
+
+.nomargin {
+    margin: 0;
+}
+
+.block {
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.blue {
+    background-color: #25dac5;
+    color: white;
+    border: 2px solid transparent;
+}
+
+.white {
+    background-color: white;
+    border: 2px solid #a5a5b3;
+}
+
+.end {
+    align-items: end;
+    justify-content: end;
+}
+
+.forth {
+    width: 20%;
+    display: flex;
+}
+
+.p {
+    background-color: #632be7;
+    border: 1px solid transparent;
+    color: white;
+} 
+
+footer {
+    padding: 3rem 0;
+}
+
+.purple {
+    background-color: #2f1893;
+    color: white;
+}
+
+.purple h3, .purple a, .purple p {
+    color: white;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #e0e0f3;
+    border-radius: 50%;
+}
+
+.pink {
+    background-color: #e93a7d;
+}
+
+label, input {
+    margin: 2rem 0;
+}

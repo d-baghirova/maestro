@@ -1,0 +1,167 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 5px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    border: 2px solid transparent;
+    background-color: white;
+    border-radius: 20px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    height: 80%;
+    justify-content: space-between;
+}
+
+
+h1, label {
+    color: #1e0e62;
+}
+
+a, p {
+    color: #a5a5b3;
+    text-decoration: none;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fullscreen {
+    width: 100%;
+    height: 100vh;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.mountains {
+    background-image: url(./imgs/mountains.png);
+}
+
+.halves {
+    display: flex;
+    height: 100vh;
+}
+
+.half {
+    width: 50%;
+}
+
+.walls {
+    background-image: url(./imgs/walls.png);
+}
+
+.block {
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+}
+
+.transparent {
+    border: 2px solid #a5a5b3;
+    background-color: transparent;
+}
+
+.blue {
+    background-color: #25dac5;
+    color: white;
+}
+
+.bluee {
+    background-color:cornflowerblue;
+    color: white;
+}
+
+.m {
+    width: 80%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filter {
+    background-color: rgb(30, 14, 98, 0.8);
+}
+
+hr {
+    margin: 2rem 0;
+    border: 2px solid #a5a5b3;
+}
+
+hr.p {
+    border: 2px solid #1e0e62;
+}
+
+.water {
+    background-image: url(./imgs/water.png);
+}
+
+.w {
+    color: white;
+}
+
+.p {
+    color: #1e0e62;
+}
+
+.ship {
+    background-image: url(./imgs/ship.png);
+}
+
+.girl {
+    background-image: url(./imgs/girl.png);
+}
+
+.pink {
+    color: #e93a7d;
+}
+
+.bluefont {
+    color: #25dac5;
+}
+
+.op {
+    opacity: 1;
+}
+
+.duna {
+    background-image: url(./imgs/duna.png);
+}
+
+::placeholder {
+    color: #a5a5b3;
+    opacity: 1; /* Firefox */
+}
+
+.start {
+    justify-content: start;
+}
+
+.purple {
+    background-color: #2f1893;
+}
+
+.sunrise {
+    background-image: url(./imgs/sunrise.png);
+}

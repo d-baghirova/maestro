@@ -1,0 +1,383 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 5px;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 70%;
+    text-align: center;
+}
+
+p {
+    color: #a5a5b3;
+}
+
+h1, h3 {
+    color: #1e0e62;
+}
+
+.center {
+    padding: 3rem 0;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.halves {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.half {
+    width: 46%;
+    margin: 1rem;
+}
+
+.sixty {
+    width: 60%;
+}
+
+.seventy {
+    width: 70%;
+    text-align: left;
+}
+
+.thirty {
+    width: 30%;
+}
+
+.horizontal {
+    font-size: 1.5rem;
+    display: flex;
+    color: #1e0e62;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.compact {
+    width: 80%;
+    margin-left: 10%;
+}
+
+#heart {
+    color: red;
+}
+
+.white {
+    color: white;
+}
+
+.picture {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.water {
+    background-image: url(./imgs/water.png);
+}
+
+.filter {
+    background-color: rgb(30, 14, 98, 0.8);
+}
+
+.mountains {
+    background-image: url(./imgs/mountains.png);
+    padding: 5rem 0;
+}
+
+.purple {
+    background-color: #1e0e62;
+}
+
+.side {
+    text-align: left;
+    justify-content: start;
+}
+
+.border {
+    padding: 1rem;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+.gray {
+    border: 1px solid #a5a5b3;
+}
+
+.abstractbg {
+    background-image: url(./imgs/abstract.png);
+}
+
+.whitebg {
+    background-color: white;
+}
+
+.fullscreen {
+    width: 100%;
+    height: 100vh;
+}
+
+.basketball {
+    background-image: url(./imgs/basketball.png);
+}
+
+.squire {
+    background-image: url(./imgs/macarona.png);
+    width: 150px;
+    height: 150px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+
+.stairs {
+    background-image: url(./imgs/stairs.png);
+}
+
+.squireText {
+    width: 20vw;
+    height: 20vw;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.btn {
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 5px 10px; 
+    color: white;
+    margin: 1rem 0;
+}
+
+.p {
+    background-color: #632be7;
+    width: 100px;
+}
+
+.blue {
+    background-color: #25dac5;
+}
+
+.centerv {
+    display: flex;
+    justify-content: row;
+    justify-content: center;
+}
+
+.vl {
+  border-left:2px solid #e5e5e9;
+  height: 20vh;
+  margin-right: 2rem;
+}
+
+.circle {
+    margin-right: 2rem;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: #e5e5e9;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+
+.dp {
+    background-color: #1e0e62;
+}
+
+.end {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 100vh;
+    border-radius: 10px;
+}
+
+.building {
+    background-image: url(./imgs/building.png);
+}
+
+.fleximgs {
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.long {
+    height: 59vh;
+}
+
+.short {
+    height: 29vh;
+}
+
+.sq {
+    height: 44vh;
+}
+
+.pic {
+    width: 29vw;
+    border: px solid transparent;
+    border-radius: 10px;
+}
+
+.play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 80vh;
+}
+
+.uni {
+    background-image: url(./imgs/unicorns.png);
+}
+
+.player {
+    width: 70px;
+    height: 70px;
+}
+
+.flower {
+    background-image: url(./imgs/flower.png);
+}
+
+.ch {
+    background-image: url(./imgs/Screenshot\ 2023-09-22\ 113753.png);
+    border: 2px solid transparent;
+    border-radius: 20px;
+}
+
+.w {
+    border: 1px solid #a5a5b3;
+    color: #1e0e62;
+}
+
+.newspaper {
+    background-image: url(./imgs/newspaper.png);
+    height: 60vh;
+    border: 2px solid transparent;
+    border-radius: 20px;
+}
+
+.planet {
+    background-image: url(./imgs/planet.jpg);
+}
+
+.m {
+    border: 2px solid transparent;
+    border-radius: 20px;
+}
+
+.flexwrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 45vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flexwrap img {
+    width: 23%;
+}
+
+.flexwrap .twentyrect {
+    width: 23%;
+    height: 7rem;
+    background-color: #e5e5e9;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twentyrect img {
+    width: 50%;
+}
+
+.fptwentyrect {
+    width: 23%;
+    height: 7rem;
+    background-color: transparent;
+    border: 2px solid #a5a5b3;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fptwentyrect img {
+    width: 50%;
+}
+
+.grtwentyrect {
+    border: 2px solid transparent;
+    background-color: #f5f5fa;
+    width: 25%;
+    border-radius: 20px;
+    padding: 1rem;
+    text-align: left;
+    justify-self: center;
+    height: 35vh;
+    margin-top: 30vh;
+}
+
+.triple {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+
+}
+ .seventy hr {
+    width: 95%;
+    text-align: left;
+    
+ }
+
+.third {
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+}
+
+.dpfont {
+    color: #1e0e62;
+}
+
+.tgs {
+    background-image: url(./imgs/tags.png);
+}
+
+.gra {
+    background-color: #e2e2e4;
+    padding: 1rem;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
