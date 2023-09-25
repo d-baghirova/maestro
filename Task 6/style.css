@@ -1,0 +1,95 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 5px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+}
+
+h1, h2, h3 {
+    color: #1e0e62;
+}
+
+p {
+    color: #a5a5b3;
+}
+
+.triple {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.double {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.triple div {
+    width: 80%;
+}
+
+.border {
+    border: 2px solid #d5d5e5;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.alignitemscenter {
+    display: flex;
+    align-items: center ;
+}
+
+.fullscreen {
+    width: 100%;
+    height: 100vh;
+}
+
+.filter {
+    background-color: rgb(30, 14, 98, 0.8);
+}
+
+.picture {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.clouds {
+    background-image: url(./imgs/clouds.png);
+}
+
+.macarona {
+    background-image: url(./imgs/macarona.png);
+    height: 30vh;
+}
+
+.macaroons {
+    background-image: url(./imgs/macaroons.png);
+    height: 30vh;
+}
+
+.half {
+    height: 20vh;
+}
+
+.block {
+    border: 2px solid transparent;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.pink {
+    background-color: #e93a7d;
+    color: white;
+}
+
+.pinkf {
+    color: #e93a7d;
+}
