@@ -11,6 +11,16 @@ main {
     width: 70%;
     text-align: center;
     margin-left: 15%;
+    padding: 3rem 1rem;
+}
+
+.wider {
+    width: 86%;
+    margin-left: 7%;
+}
+
+a {
+    text-decoration: none;
 }
 
 h1, h2, h3 {
@@ -20,6 +30,8 @@ h1, h2, h3 {
 p {
     color: #a5a5b3;
 }
+
+
 
 .triple {
     display: grid;
@@ -31,12 +43,13 @@ p {
     grid-template-columns: auto auto auto;
 }
 
-.triple div {
+.triple div, .quater div {
     width: 80%;
 }
 
+
 .border {
-    border: 2px solid #d5d5e5;
+    border: 1px solid #c2c2d1;
     border-radius: 10px;
     padding: 1rem;
 }
@@ -52,13 +65,22 @@ p {
 }
 
 .filter {
-    background-color: rgb(30, 14, 98, 0.8);
+    background-color: rgb(30, 14, 98, 0.5);
+}
+
+.filterr {
+    background-color: rgb(30, 14, 98, 0.6);
 }
 
 .picture {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
 }
 
 .clouds {
@@ -92,4 +114,151 @@ p {
 
 .pinkf {
     color: #e93a7d;
+}
+
+.circle {
+    border: 2px solid #a5a5b3;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+
+.duna {
+    background-image: url(./imgs/duna.png);
+}
+
+.white {
+    color: white;
+}
+
+.mini {
+    height: 15vh;
+}
+
+em {
+    color: #a5a5b3;
+}
+
+.quater {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.grey {
+    color: #a5a5b3;
+    width: 70%;
+} 
+
+.sea {
+    height: 30vh;
+    width: 35vw;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: url(./imgs/sea.png);
+}
+
+.pcHalf {
+    background-image: url(./imgs/pcHalf.png);
+    width: 100%;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    border: 2px solid transparent;
+    border-radius: 20px;
+}
+
+.tra {
+    background-color: transparent;
+    border: 2px solid #d5d5e5;
+    color: #1e0e62;
+}
+
+.tralight {
+    background-color: transparent;
+    border: 2px solid #a5a5b3;
+    color: white;
+}
+
+.widerr {
+    width: 95%;
+    margin-left: 5%;
+}
+
+.play {
+    width: 70px;
+    height: 70px;
+}
+
+.purplebg {
+    background-color: #2f1893;
+}
+
+.blue {
+    background-color: #25dac5;
+    color: white;
+}
+
+.roads {
+    background-image: url(./imgs/roads.png);
+}
+
+.pink {
+    color: white;
+    background-color: #e93a7d;
+}
+
+.girl3 {
+    background-image: url(./imgs/girl3.png);
+}
+
+.bluefont {
+    color: #25dac5;
+}
+
+.crochet {
+    background-image: url(./imgs/crochet.png);
+}
+
+.pinkfont {
+    color: #e93a7d;
+}
+
+.clementines {
+    background-image: url(./imgs/clementines.png);
+    margin-right: 1rem;
+}
+
+.abstract {
+    background-image: url(./imgs/abstract.png);
+}
+
+.minic {
+    width: 7px;
+    height: 7px;
+}
+
+.check {
+    background-color: #a5a5b3;
+}
+
+.sky {
+    background-image: url(./imgs/sky.png);
+}
+
+.electronics {
+    background-image: url(./imgs/electronics.png);
+}
+
+.flexstart {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    width: 90vw;
+    height: 90vh;
+    padding: 5vh 5vw;
+    flex-direction: column;
 }
